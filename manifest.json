@@ -1,0 +1,28 @@
+{
+  "manifest_version": "1.0",
+  "org": "expressjs",
+  "repo": "vhost",
+  "versions": [
+    {
+      "commit": "2dff3f358265380328067d1ffc91e342b665f586",
+      "parsed_at": "2026-04-10T18:08:09.594940+00:00",
+      "tag": "v3.0.2",
+      "filetree": "filetree/2dff3f358265380328067d1ffc91e342b665f586.nq.gz",
+      "blobs": [
+        "blob/3cd27afdb6d88edd8bd83ee7adbc7313084a48e7.nq.gz",
+        "blob/3c26fab6d8922012e9971d36c9bf5dda476e9cc6.nq.gz",
+        "blob/e4f87180fefc62a5bb8359ec2c83428d437acdc1.nq.gz",
+        "blob/803d78d33377644dc06a2075aea983899ee9761f.nq.gz",
+        "blob/7f77e502600ff170220a48e5eb01eb52ccd2fbfc.nq.gz",
+        "blob/b94cbbd9b709877a8d99406bc6487236745e7e85.nq.gz",
+        "blob/f3538757770ef482522250624c0c9edb5f30e281.nq.gz",
+        "blob/82843eb17fd0f08a5d25d171f5a7ada0ef20f713.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
