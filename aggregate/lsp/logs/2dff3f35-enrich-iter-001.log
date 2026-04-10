@@ -1,0 +1,14 @@
+[2026-04-10T18:22:19Z] === ENRICH ITERATION 1 START | repo=expressjs/vhost sha=2dff3f35 ===
+[2026-04-10T18:22:19Z] [iter=1] PHASE START: enrich repo=expressjs/vhost sha=2dff3f35 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2dff3f35-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2dff3f358265380328067d1ffc91e342b665f586.nq.gz
+[2026-04-10T18:22:22Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-10T18:22:22Z] [iter=1] AST store loaded triples=12749 load_secs=0 mem_mb=103 MB
+[2026-04-10T18:22:22Z] [iter=1] Step 2: Finding LSP targets mem_mb=103 MB
+[2026-04-10T18:22:22Z] [iter=1] LSP targets found call_sites=175 imports=0 extends=0 implements=0 secs=0
+[2026-04-10T18:22:22Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=103 MB
+[2026-04-10T18:22:22Z] [iter=1] Position index built positions=893 nodes_with_types=1073 secs=0 mem_mb=103 MB
+[2026-04-10T18:22:22Z] [iter=1] Step 3: Starting LSP resolution mem_mb=103 MB already_completed_types=[] already_completed_files=0
+[2026-04-10T18:22:22Z] [iter=1] Resolving target type target_type=call_site count=175
+[2026-04-10T18:22:24Z] [iter=1] Target type resolved target_type=call_site resolved=12 errors=130 secs=2 mem_mb=103 MB
+[2026-04-10T18:22:26Z] [iter=1] Step 5: Writing final enrichment file triples=1456
+[2026-04-10T18:22:26Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/2dff3f358265380328067d1ffc91e342b665f586.nq.gz size_kb=17
+[2026-04-10T18:22:26Z] [iter=1] PHASE END: enrich elapsed_s=7 elapsed_min=0.1 total_triples=1456
