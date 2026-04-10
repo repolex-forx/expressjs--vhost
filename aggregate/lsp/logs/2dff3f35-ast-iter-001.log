@@ -1,0 +1,7 @@
+[2026-04-10T18:13:19Z] === AST ITERATION 1 START | repo=expressjs/vhost sha=2dff3f35 ===
+[2026-04-10T18:13:19Z] [iter=1] PHASE START: ast repo=expressjs/vhost sha=2dff3f35
+[2026-04-10T18:13:19Z] [iter=1] Building AST aggregate chunks
+[2026-04-10T18:13:20Z] [iter=1] AST chunks built count=1 triples=12749
+[2026-04-10T18:13:20Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/2dff3f358265380328067d1ffc91e342b665f586/.complete
+[2026-04-10T18:13:20Z] [iter=1] PHASE END: ast elapsed_s=1 elapsed_min=0.0
+[2026-04-10T18:13:20Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
